@@ -10,7 +10,7 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers, models
 import pandas as pd
-import numpy np
+import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.svm import LinearSVC
@@ -228,4 +228,3 @@ else:
             LogProgressCallback(),
         ],
     )
-
